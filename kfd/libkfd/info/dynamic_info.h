@@ -12340,7 +12340,7 @@ const struct dynamic_info kern_versions[] = {
     {
         .kern_version = "Darwin Kernel Version 22.3.0: Wed Jan  4 21:24:51 PST 2023; root:xnu-8792.82.2~1/RELEASE_ARM64_T8020",
 		.build_version = "20D47",
-		 .device_id = "iPad8,9”,
+		.device_id = "iPad8,9",
         .fileglob__fg_ops = 0x28,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
