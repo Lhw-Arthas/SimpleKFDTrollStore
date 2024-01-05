@@ -239,7 +239,8 @@ void krkw_helper_run_deallocate(struct kfd* kfd, struct krkw* krkw)
 
         krkw->krkw_method_ops.deallocate(kfd, id);
     }
-
+    
+//    sleep(0.5);
     timer_end();
 }
 

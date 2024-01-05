@@ -55,6 +55,7 @@
 		659EB6FE2A8D061400E440B9 /* utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 659EB6FC2A8D05D400E440B9 /* utils.m */; };
 		659EB6FF2A8D061F00E440B9 /* vnode.m in Sources */ = {isa = PBXBuildFile; fileRef = 659EB6FB2A8D02C600E440B9 /* vnode.m */; };
 		659EB7012A8D094900E440B9 /* CoreUI in Resources */ = {isa = PBXBuildFile; fileRef = 659EB7002A8D094900E440B9 /* CoreUI */; };
+		9A4EA76E2B329656008A0D9C /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9A4EA76D2B329656008A0D9C /* Fonts */; };
 		C806988F2A71436A001A593E /* AAAA.bin in Resources */ = {isa = PBXBuildFile; fileRef = C806988C2A71436A001A593E /* AAAA.bin */; };
 /* End PBXBuildFile section */
 
@@ -135,6 +136,8 @@
 		659EB6FC2A8D05D400E440B9 /* utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = utils.m; sourceTree = "<group>"; };
 		659EB6FD2A8D05DA00E440B9 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
 		659EB7002A8D094900E440B9 /* CoreUI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CoreUI; sourceTree = "<group>"; };
+		9A4EA76D2B329656008A0D9C /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		9AF2A5AB2B47EA6300F11C21 /* landa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = landa.h; sourceTree = "<group>"; };
 		C806988C2A71436A001A593E /* AAAA.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = AAAA.bin; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -189,6 +192,7 @@
 		2948BA6D2A3162E900B2ED3C /* puaf */ = {
 			isa = PBXGroup;
 			children = (
+				9AF2A5AB2B47EA6300F11C21 /* landa.h */,
 				2948BA722A31636600B2ED3C /* physpuppet.h */,
 				29A358F32A43B53300C297A1 /* smith.h */,
 			);
@@ -216,6 +220,7 @@
 		297BA0FC2A310AE100D1E51A = {
 			isa = PBXGroup;
 			children = (
+				9A4EA76D2B329656008A0D9C /* Fonts */,
 				6508056C2A8D171200361381 /* ADTTime.ttc */,
 				650805542A8D171100361381 /* Anemo.png */,
 				650805532A8D171100361381 /* Cryo.png */,
@@ -267,8 +272,8 @@
 		297BA1072A310AE100D1E51A /* kfd */ = {
 			isa = PBXGroup;
 			children = (
-				297BA10C2A310AE200D1E51A /* Assets.xcassets */,
 				297BA10A2A310AE100D1E51A /* ContentView.swift */,
+				297BA10C2A310AE200D1E51A /* Assets.xcassets */,
 				2965065D2A31565B0025D1A7 /* kfd-Bridging-Header.h */,
 				297BA10E2A310AE200D1E51A /* kfd.entitlements */,
 				297BA1082A310AE100D1E51A /* kfdApp.swift */,
@@ -395,6 +400,7 @@
 				6508057C2A8D171200361381 /* Dendro.png in Resources */,
 				6508057D2A8D171200361381 /* modulesBackground.materialrecipe in Resources */,
 				6508057E2A8D171200361381 /* Geo.png in Resources */,
+				9A4EA76E2B329656008A0D9C /* Fonts in Resources */,
 				6508057F2A8D171200361381 /* image_part_004.png in Resources */,
 				650805802A8D171200361381 /* Pyro.png in Resources */,
 				650805812A8D171200361381 /* SFUI.ttf in Resources */,
