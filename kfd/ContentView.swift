@@ -1,4 +1,72 @@
 import SwiftUI
+import UIKit
+import Foundation
+
+// Alert++
+// credit: sourcelocation & TrollTools
+var currentUIAlertController: UIAlertController?
+
+
+fileprivate let errorString = NSLocalizedString("Error", comment: "")
+fileprivate let okString = NSLocalizedString("OK", comment: "")
+fileprivate let cancelString = NSLocalizedString("Cancel", comment: "")
+
+extension UIApplication {
+    
+    func dismissAlert(animated: Bool) {
+        DispatchQueue.main.async {
+            currentUIAlertController?.dismiss(animated: animated)
+        }
+    }
+    
+    func alert(title: String = errorString, body: String, animated: Bool = true, withButton: Bool = true) {
+        DispatchQueue.main.async {
+            var body = body
+            
+            if title == errorString {
+                // append debug info
+                let device = UIDevice.current
+                let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
+                _ = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? ""
+                let systemVersion = device.systemVersion
+                body += "\n\(device.systemName) \(systemVersion), PureKFD v\(appVersion)"
+            }
+            
+            currentUIAlertController = UIAlertController(title: title, message: body, preferredStyle: .alert)
+            if withButton { currentUIAlertController?.addAction(.init(title: okString, style: .cancel)) }
+            self.present(alert: currentUIAlertController!)
+        }
+    }
+    func confirmAlert(title: String = errorString, body: String, confirmTitle: String = okString, onOK: @escaping () -> (), noCancel: Bool) {
+        DispatchQueue.main.async {
+            currentUIAlertController = UIAlertController(title: title, message: body, preferredStyle: .alert)
+            if !noCancel {
+                currentUIAlertController?.addAction(.init(title: cancelString, style: .cancel))
+            }
+            currentUIAlertController?.addAction(.init(title: confirmTitle, style: noCancel ? .cancel : .default, handler: { _ in
+                onOK()
+            }))
+            self.present(alert: currentUIAlertController!)
+        }
+    }
+    func change(title: String = errorString, body: String) {
+        DispatchQueue.main.async {
+            currentUIAlertController?.title = title
+            currentUIAlertController?.message = body
+        }
+    }
+    
+    func present(alert: UIAlertController) {
+        if var topController = self.windows[0].rootViewController {
+            while let presentedViewController = topController.presentedViewController {
+                topController = presentedViewController
+            }
+            
+            topController.present(alert, animated: true)
+            // topController should now be your topmost view controller
+        }
+    }
+}
 
 extension URL {
     var isDirectory: Bool {
@@ -240,7 +308,7 @@ func getApps(exploit_method: Int) throws -> [String:[String:[String:Any]]] {
 struct ContentView: View {
     @State private var kfd: UInt64 = 0
 
-    private let puafPagesOptions = [16, 32, 64, 128, 256, 512, 1024, 2048]
+    private let puafPagesOptions = [16, 32, 64, 128, 256, 512, 1024, 2048, 3072, 4096]
     @State private var puafPagesIndex = 7
     @State private var puafPages = 0
 
@@ -509,11 +577,14 @@ struct ContentView: View {
                             kfd = do_kopen(UInt64(puafPages), UInt64(puafMethod), UInt64(kreadMethod), UInt64(kwriteMethod), build_check, device_check)
                             if (kfd != 0) {
 //                                _offsets_init()
+                                sleep(1)
                                 try? getApps(exploit_method: 0)
                                 do_kclose()
-//                                backboard_respring()
+                                UIApplication.shared.dismissAlert(animated: false)
+                                UIApplication.shared.alert(title: "Installed!", body: "Installed TSHelper!", withButton: true)
                             } else {
                                 errorAlert = true
+                                UIApplication.shared.alert(title: "Failed!", body: "This operation is KFD only for now.", withButton: true)
                             }
                         }) {
                             Text("Install Troll")
@@ -609,7 +680,7 @@ struct SettingsView: View {
     @Binding var res_y: Int
     @Binding var res_x: Int
 
-    private let puafPagesOptions = [16, 32, 64, 128, 256, 512, 1024, 2048]
+    private let puafPagesOptions = [16, 32, 64, 128, 256, 512, 1024, 2048, 3072, 4096]
     private let puafMethodOptions = ["physpuppet", "smith"]
     private let kreadMethodOptions = ["kqueue_workloop_ctl", "sem_open"]
     private let kwriteMethodOptions = ["dup", "sem_open"]

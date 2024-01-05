@@ -182,8 +182,8 @@ u64 kopen(u64 puaf_pages, u64 puaf_method, u64 kread_method, u64 kwrite_method, 
     assert(puaf_method <= puaf_smith);
     assert(kread_method <= kread_sem_open);
     assert(kwrite_method <= kwrite_sem_open);
-
     struct kfd* kfd = kfd_init(puaf_pages, puaf_method, kread_method, kwrite_method, build_check, device_check);
+//    sleep(2);
     if (kfd != 0) {
         puaf_run(kfd);
         krkw_run(kfd);

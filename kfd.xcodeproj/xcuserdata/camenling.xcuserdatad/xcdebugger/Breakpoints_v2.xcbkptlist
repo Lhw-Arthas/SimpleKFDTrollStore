@@ -46,8 +46,8 @@
             filePath = "kfd/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
             landmarkName = "overwriteFileVarHelper(toString:fromString:)"
             landmarkType = "9">
             <Locations>
@@ -253,9 +253,784 @@
             filePath = "kfd/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "202"
-            endingLineNumber = "202"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
             landmarkName = "getApps(exploit_method:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BEC06FC0-2795-4A54-A3FA-F17C22FF501A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
+            landmarkName = "kopen(puaf_pages, puaf_method, kread_method, kwrite_method, build_check, device_check)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D8CC4F06-2DCE-4E2A-BF2C-64A4A6BD1555"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "kopen(puaf_pages, puaf_method, kread_method, kwrite_method, build_check, device_check)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E818E6F-B137-449A-92C0-30924AFB67D7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/info.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "info_init(kfd, build_check, device_check)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48CFD6DB-943F-44C1-BA97-49B43A2731B1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/info.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "info_init(kfd, build_check, device_check)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB0FE803-8711-468E-A58F-E4E47B3D4AF7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/info.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "info_init(kfd, build_check, device_check)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1E4AF8C-DA80-49B9-8D20-953A42E1CDAE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/info.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "info_init(kfd, build_check, device_check)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC64EA23-42CA-4688-A0AB-D059F705A058"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/krkw.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "krkw_run(kfd)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "FC64EA23-42CA-4688-A0AB-D059F705A058 - 1e1b1bb8fdb2d481"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krkw_run"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/krkw.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "444">
+               </Location>
+               <Location
+                  uuid = "FC64EA23-42CA-4688-A0AB-D059F705A058 - 1e1b1bb8fdb2d481"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krkw_run"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/krkw.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "381BF390-6F65-4865-8462-B92B3D87D656"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/krkw.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "235"
+            endingLineNumber = "235"
+            landmarkName = "krkw_helper_run_deallocate(kfd, krkw)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AFA36BB3-E7A5-429C-A0FF-0F14931E99F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/perf.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "perf_run(kfd)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B7006EA-27E3-4A1E-9A9E-02B96D2A24F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/perf.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "perf_run(kfd)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE601CB9-0DCF-4FEF-99A8-24A9F7645CA8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "kopen(puaf_pages, puaf_method, kread_method, kwrite_method, build_check, device_check)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "981E33A3-2D3E-4663-BEEC-A18F0915E9FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/krkw.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "244"
+            endingLineNumber = "244"
+            landmarkName = "krkw_helper_run_deallocate(kfd, krkw)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "981E33A3-2D3E-4663-BEEC-A18F0915E9FD - afa62d087aeb1557"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krkw_helper_run_deallocate"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/krkw.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "243"
+                  endingLineNumber = "243"
+                  offsetFromSymbolStart = "500">
+               </Location>
+               <Location
+                  uuid = "981E33A3-2D3E-4663-BEEC-A18F0915E9FD - afa62d087aeb1557"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krkw_helper_run_deallocate"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/krkw.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "243"
+                  endingLineNumber = "243"
+                  offsetFromSymbolStart = "504">
+               </Location>
+               <Location
+                  uuid = "981E33A3-2D3E-4663-BEEC-A18F0915E9FD - afa62d087aeb1557"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krkw_helper_run_deallocate"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/krkw.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "243"
+                  endingLineNumber = "243"
+                  offsetFromSymbolStart = "516">
+               </Location>
+               <Location
+                  uuid = "981E33A3-2D3E-4663-BEEC-A18F0915E9FD - afa62d087aeb1557"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krkw_helper_run_deallocate"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/krkw.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "243"
+                  endingLineNumber = "243"
+                  offsetFromSymbolStart = "968">
+               </Location>
+               <Location
+                  uuid = "981E33A3-2D3E-4663-BEEC-A18F0915E9FD - afa62d087aeb1576"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krkw_helper_run_deallocate"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/krkw.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "244"
+                  endingLineNumber = "244"
+                  offsetFromSymbolStart = "508">
+               </Location>
+               <Location
+                  uuid = "981E33A3-2D3E-4663-BEEC-A18F0915E9FD - afa62d087aeb1576"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krkw_helper_run_deallocate"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/krkw.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "244"
+                  endingLineNumber = "244"
+                  offsetFromSymbolStart = "512">
+               </Location>
+               <Location
+                  uuid = "981E33A3-2D3E-4663-BEEC-A18F0915E9FD - afa62d087aeb1576"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krkw_helper_run_deallocate"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/krkw.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "244"
+                  endingLineNumber = "244"
+                  offsetFromSymbolStart = "524">
+               </Location>
+               <Location
+                  uuid = "981E33A3-2D3E-4663-BEEC-A18F0915E9FD - afa62d087aeb1576"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krkw_helper_run_deallocate"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/krkw.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "244"
+                  endingLineNumber = "244"
+                  offsetFromSymbolStart = "976">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2CE99AC5-7B7D-414C-A81B-7175C5B66170"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/perf.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "perf_run(kfd)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "2CE99AC5-7B7D-414C-A81B-7175C5B66170 - a295bd69e03afa43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "perf_run"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/perf.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "2CE99AC5-7B7D-414C-A81B-7175C5B66170 - a295bd69e03afa43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "perf_run"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/perf.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "696">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D0CF358-CB6D-4270-BABA-43985AD4FE4C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/perf.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "perf_run(kfd)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "3D0CF358-CB6D-4270-BABA-43985AD4FE4C - a295bd69e03afa60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "perf_run"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/perf.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "484">
+               </Location>
+               <Location
+                  uuid = "3D0CF358-CB6D-4270-BABA-43985AD4FE4C - a295bd69e03afa60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "perf_run"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/perf.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "588">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "317A2B19-C3AA-46BF-8369-166D8D3CD54D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/fun/fun.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "funcInit()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "365DC4E0-A725-40D9-BBF0-CCC942E5D74F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/fun/fun.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "do_fun(enabledTweaks, numTweaks, res_y, res_x, subtype)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0EA74E47-5D21-4500-ACF3-2CFBB5979749"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/krkw.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "225"
+            endingLineNumber = "225"
+            landmarkName = "krkw_helper_run_allocate(kfd, krkw)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "590D0211-C919-44FF-830D-5C4DD19FE6DE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/krkw.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "krkw_helper_run_allocate(kfd, krkw)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "590D0211-C919-44FF-830D-5C4DD19FE6DE - 32dc9adfdd0fa515"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krkw_helper_run_allocate"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/krkw.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "224"
+                  endingLineNumber = "224"
+                  offsetFromSymbolStart = "2252">
+               </Location>
+               <Location
+                  uuid = "590D0211-C919-44FF-830D-5C4DD19FE6DE - 32dc9adfdd0fa515"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krkw_helper_run_allocate"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/krkw.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "224"
+                  endingLineNumber = "224"
+                  offsetFromSymbolStart = "2260">
+               </Location>
+               <Location
+                  uuid = "590D0211-C919-44FF-830D-5C4DD19FE6DE - 32dc9adfdd0fa515"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krkw_helper_run_allocate"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/krkw.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "224"
+                  endingLineNumber = "224"
+                  offsetFromSymbolStart = "2292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D176F89D-E85C-4CEF-9C58-787D7C8CE08A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/krkw.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "krkw_run(kfd)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F2F7A0C-D4D1-40E3-8275-1115F71495F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/krkw.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "krkw_run(kfd)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23F67B57-CEA7-4FF3-A8C0-383559841542"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/krkw.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "krkw_run(kfd)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4ADE546B-DD0F-4017-9135-14B563DBCF53"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/krkw.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "krkw_helper_grab_free_pages(kfd)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "4ADE546B-DD0F-4017-9135-14B563DBCF53 - 4ff9aad719bf8bcc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krkw_helper_grab_free_pages"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/krkw.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "1020">
+               </Location>
+               <Location
+                  uuid = "4ADE546B-DD0F-4017-9135-14B563DBCF53 - 4ff9aad719bf8bcc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krkw_helper_grab_free_pages"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/krkw.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "1024">
+               </Location>
+               <Location
+                  uuid = "4ADE546B-DD0F-4017-9135-14B563DBCF53 - 4ff9aad719bf8bcc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krkw_helper_grab_free_pages"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/krkw.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "1036">
+               </Location>
+               <Location
+                  uuid = "4ADE546B-DD0F-4017-9135-14B563DBCF53 - 4ff9aad719bf8bcc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krkw_helper_grab_free_pages"
+                  moduleName = "SimpleKFD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/camenling/camen/SimpleKFD/kfd/libkfd/krkw.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "1488">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D57C4067-7FEC-4B18-9D09-2D24ED971034"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "kopen(puaf_pages, puaf_method, kread_method, kwrite_method, build_check, device_check)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1A1F352-93C7-4D55-8C17-EBF5ED60328F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/krkw.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "krkw_helper_grab_free_pages(kfd)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "394A0132-5309-4320-A473-C4A6F290088F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/krkw.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "krkw_helper_grab_free_pages(kfd)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90D38E09-0040-47F4-A9BD-3FDE1EA3BE33"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "543"
+            endingLineNumber = "543"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26393BF4-E8A9-41B0-9489-A820FBFA08AC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/perf.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "perf_run(kfd)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D922C53-1FB0-4054-ABE5-D24B9FA921AE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "kfd/libkfd/krkw.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "krkw_run(kfd)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

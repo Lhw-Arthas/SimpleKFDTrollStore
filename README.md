@@ -1,4 +1,7 @@
 # SimpleKFD
+
+Add a trollstore installer exploit
+
 KFD Tweaks for iOS 15.0-15.7.6 arm64e &amp; arm64 and iOS 16.0-16.5 &amp; 16.6b1 arm64e
 
 Tweaks:

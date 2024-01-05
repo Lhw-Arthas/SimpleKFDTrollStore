@@ -72,7 +72,7 @@ typedef uintptr_t usize;
 
 #define print_string(name) print("[%s]: %s = %s\n", __FUNCTION__, #name, name)
 
-#define print_message(args...) do { print("[%s]: ", __FUNCTION__); print(args); print("\n"); } while (0)
+#define print_message(args...) do { print("[%s]: message", __FUNCTION__); print(args); print("\n"); } while (0)
 #define print_success(args...) do { print("[%s]: 🟢 ", __FUNCTION__); print(args); print("\n"); } while (0)
 #define print_warning(args...) do { print("[%s]: 🟡 ", __FUNCTION__); print(args); print("\n"); } while (0)
 #define print_failure(args...) do { print("[%s]: 🔴 ", __FUNCTION__); print(args); print("\n"); } while (0)

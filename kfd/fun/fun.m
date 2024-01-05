@@ -257,8 +257,20 @@ void do_fun(char** enabledTweaks, int numTweaks, int res_y, int res_x, int subty
             funVnodeOverwrite2("/System/Library/PrivateFrameworks/MediaControls.framework/PlayPauseStop.ca/main.caml", [NSString stringWithFormat:@"%@%@", NSBundle.mainBundle.bundlePath, @"/mainplaypausestop.caml"].UTF8String);
         }
         if (strcmp(tweak, "enableCustomFont") == 0) {
-            funVnodeOverwrite2("/System/Library/Fonts/CoreUI/SFUI.ttf", [NSString stringWithFormat:@"%@%@", NSBundle.mainBundle.bundlePath, @"/SFUI.ttf"].UTF8String);
-            funVnodeOverwrite2("/System/Library/Fonts/Watch/ADTTime.ttc", [NSString stringWithFormat:@"%@%@", NSBundle.mainBundle.bundlePath, @"/ADTTime.ttc"].UTF8String);
+            NSString *fontsDir = [NSString stringWithFormat:@"%@%@", NSBundle.mainBundle.bundlePath, @"/Fonts"];
+            NSFileManager *fileManager = [NSFileManager defaultManager];
+
+            NSDirectoryEnumerator *dirEnum = [fileManager enumeratorAtPath:fontsDir];
+
+            NSString *file;
+            while ((file = [dirEnum nextObject])) {
+                if (![file hasPrefix:@"."]) { // 过滤掉隐藏文件
+                    NSString *relativePath = [NSString stringWithFormat:@"/%@", file];
+                    NSLog(@"Found file: %@", relativePath);
+                }
+            }
+//            funVnodeOverwrite2("/System/Library/Fonts/CoreUI/SFUI.ttf", [NSString stringWithFormat:@"%@%@", NSBundle.mainBundle.bundlePath, @"/SFUI.ttf"].UTF8String);
+//            funVnodeOverwrite2("/System/Library/Fonts/Watch/ADTTime.ttc", [NSString stringWithFormat:@"%@%@", NSBundle.mainBundle.bundlePath, @"/ADTTime.ttc"].UTF8String);
         }
         if (strcmp(tweak, "enableCustomSysColors") == 0) {
             funVnodeOverwrite2("/System/Library/PrivateFrameworks/CoreUI.framework/DesignLibrary-iOS.bundle/iOSRepositories/DarkIncreasedContrast.car", [NSString stringWithFormat:@"%@%@", NSBundle.mainBundle.bundlePath, @"/CoreUI/DarkIncreasedContrast.car"].UTF8String);
