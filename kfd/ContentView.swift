@@ -309,11 +309,11 @@ struct ContentView: View {
     @State private var kfd: UInt64 = 0
 
     private let puafPagesOptions = [16, 32, 64, 128, 256, 512, 1024, 2048, 3072, 4096]
-    @State private var puafPagesIndex = 7
+    @State private var puafPagesIndex = 8
     @State private var puafPages = 0
 
-    private let puafMethodOptions = ["physpuppet", "smith"]
-    @State private var puafMethod = 1
+    private let puafMethodOptions = ["physpuppet", "smith", "landa"]
+    @State private var puafMethod = 2
 
     private let kreadMethodOptions = ["kqueue_workloop_ctl", "sem_open"]
     @State private var kreadMethod = 1
@@ -681,7 +681,7 @@ struct SettingsView: View {
     @Binding var res_x: Int
 
     private let puafPagesOptions = [16, 32, 64, 128, 256, 512, 1024, 2048, 3072, 4096]
-    private let puafMethodOptions = ["physpuppet", "smith"]
+    private let puafMethodOptions = ["physpuppet", "smith", "landa"]
     private let kreadMethodOptions = ["kqueue_workloop_ctl", "sem_open"]
     private let kwriteMethodOptions = ["dup", "sem_open"]
     

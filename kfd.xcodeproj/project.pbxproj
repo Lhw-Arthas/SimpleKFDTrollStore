@@ -137,6 +137,7 @@
 		659EB6FD2A8D05DA00E440B9 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
 		659EB7002A8D094900E440B9 /* CoreUI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CoreUI; sourceTree = "<group>"; };
 		9A4EA76D2B329656008A0D9C /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		9AF2A5AB2B47EA6300F11C21 /* landa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = landa.h; sourceTree = "<group>"; };
 		C806988C2A71436A001A593E /* AAAA.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = AAAA.bin; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -191,6 +192,7 @@
 		2948BA6D2A3162E900B2ED3C /* puaf */ = {
 			isa = PBXGroup;
 			children = (
+				9AF2A5AB2B47EA6300F11C21 /* landa.h */,
 				2948BA722A31636600B2ED3C /* physpuppet.h */,
 				29A358F32A43B53300C297A1 /* smith.h */,
 			);
